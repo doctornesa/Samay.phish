@@ -34,6 +34,8 @@ printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
 printf "\n"
 printf "  \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m youtube.com/noobhackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
+echo
+
 }
 menu() {
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Facebook    \e[0m\e[1;31m[\e[0m\e[1;77m11\e[0m\e[1;31m]\e[0m\e[1;93m Twitch      \e[0m\e[1;31m[\e[0m\e[1;77m21\e[0m\e[1;31m]\e[0m\e[1;93m DeviantArt\e[0m\n"

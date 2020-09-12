@@ -6,7 +6,7 @@ command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh is not installed ! Instal
 command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Install it"; exit 1; }
 }
 #bin/bash
-#script By Noob Hackers
+#script By vrushabh oswal
 #The real creator of core files is not us so the credits 
 #Goes to real author
 #colours
@@ -22,17 +22,17 @@ pink='\033[1;35m'
 clear
 echo 
 echo '
-    ██╗ ██████╗       ██╗  ██╗ █████╗  ██████╗██╗  ██╗
-    ██║██╔════╝       ██║  ██║██╔══██╗██╔════╝██║ ██╔╝
-    ██║██║  ███╗█████╗███████║███████║██║V1.0 █████╔╝ 
-    ██║██║   ██║╚════╝██╔══██║██╔══██║██║     ██╔═██╗ 
-    ██║╚██████╔╝      ██║  ██║██║  ██║╚██████╗██║  ██╗
-    ╚═╝ ╚═════╝       ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+   ███████╗ █████╗ ███╗   ███╗ █████╗ ██╗   ██╗
+   ██╔════╝██╔══██╗████╗ ████║██╔══██╗╚██╗ ██╔╝
+   ███████╗███████║██╔████╔██║███████║ ╚████╔╝
+   ╚════██║██╔══██║██║╚██╔╝██║██╔══██║  ╚██╔╝
+   ███████║██║  ██║██║ ╚═╝ ██║██║  ██║   ██║
+   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝
 ' |lolcat
 printf "\n"
-printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
+printf "                \e[101m\e[1;77m  >>  script by samay << \e[0m\n"
 printf "\n"
-printf "  \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m youtube.com/noobhackers \e[100m\e[1;77m << \e[0m\n"
+printf "  \e[100m\e[1;77m >>  Youtube Channel : \e[1;91m youtube.com/samayroaster \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 echo
 
